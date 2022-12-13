@@ -7,7 +7,6 @@
 
 import Foundation
 
-public struct GroupsModel {
-    
-    public init(){}
+public struct GroupsModel: Decodable {
+    public let response: GroupResponse
 }

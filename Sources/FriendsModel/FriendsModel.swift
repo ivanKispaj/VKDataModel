@@ -7,6 +7,7 @@
 
 import Foundation
 
-public struct FriendsModel {
-    public init(){}
+public struct FriendsModel: Decodable {
+    public let response: FriendsResponse
+    
 }
